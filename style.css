@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(95, 59, 59);
+}
+header{
+    background-color: rgb(95, 60, 60);
+}
+h1{
+    color: rgb(248, 247, 247);
+}
+h2{
+    color: rgb(248, 247, 247);
+}
+.pagina1{
+    text-align: center;
+    overflow: auto;
+}
+#café1{
+    display: block;
+    float: left;
+    margin-right: 50px;
+    width: 40%;
+}
+.titulo1{
+    color: rgb(252, 244, 244);
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: auto;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 10px solid;
+    border-radius: 10px;
+    border-style: bold;
+}
+#banner1{
+    display: block;
+    float: left;
+    margin-right: 100px;
+    width: 500px;
+}
+#banner2{
+    display: block;
+    float: left;
+    margin-right: 500px;
+    width: 500px;
+}
+#banner3{
+    display: block;
+    float: left;
+    margin-right: 500px;
+    width: 500px;
+}
+.produtos li:hover h2{
+    text-transform: uppercase;
+    color: aliceblue;
+}
+ul{
+color: aliceblue;
+}
